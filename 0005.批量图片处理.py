@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 #coding: utf-8
-import Image, ImageFont, ImageDraw, os
+import Image, os
 
+# 源目录
 myPath = '/home/bill/Pictures/'
+# 输出目录
 outPath = '/home/bill/Pictures/output/'
-
-
 
 def processImage(filesource, destsource, name, imgtype):
     '''
