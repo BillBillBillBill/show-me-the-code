@@ -68,9 +68,3 @@ class ImageDownloadAndMongoDBPipeline(object):
 
 
         return item
-
-
-class ImageDownloadPipeline(object):
-    def process_item(self, item, spider):
-        print item
-        return item
